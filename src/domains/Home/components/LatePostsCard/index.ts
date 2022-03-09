@@ -1,0 +1,1 @@
+export {LatePostsCard} from './LatePostsCard';

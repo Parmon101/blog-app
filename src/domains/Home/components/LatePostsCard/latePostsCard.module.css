@@ -1,0 +1,39 @@
+.wrapper {
+    color: var(--text-black);
+    background: var(--white);
+    padding: 10px;
+    max-width: 420px;
+    margin: 0 50px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+}
+
+.header {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    padding: 10px;
+}
+
+.split {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text:first-child {
+    border-right: 1px solid black;
+    padding-right: 20px;
+    height: 21px;
+}
+
+.text {
+    padding: 10px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.footer {
+    padding: 10px;
+    line-height: 24px;
+}
