@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
 
-// import styles from './singlepage.module.css';
-
 export const Singlepage = () => {
     const {id} = useParams();
     const navigate = useNavigate();
@@ -15,7 +13,7 @@ export const Singlepage = () => {
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
             .then(res => res.json())
             .then(data => setPosts(data))
-    }, []);
+    });
 
     return (
         <div>
